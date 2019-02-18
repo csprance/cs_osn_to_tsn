@@ -12,6 +12,7 @@ fancy. Let me know if you run into any issues and if it works on other versions 
 ## How to use
 * Select low poly meshes to use
 * `Right Click` on the Object Space normal texture in the clips browser in modo and select "Convert OSN -> TSN"
+* Texture will be converted and imported into the clip browser
 
 ## Uninstallation process
 * Delete `cs_osn_to_tsn` from `%appdata%/Luxology/Kits`

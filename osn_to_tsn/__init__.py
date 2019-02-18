@@ -9,7 +9,7 @@ import lxu
 
 def get_xnormal_path():
     # if the value is not set create it and ask the user what it is then set that value
-    if lx.eval("user.value xnormal_path ?") == "None":
+    if lx.eval('user.value xnormal_path ?') == '':
         # ask the user where it's located at here
         # set up our fileOpen Dialog
         lx.eval("dialog.setup fileOpen")
@@ -19,7 +19,7 @@ def get_xnormal_path():
         # dialog.result ? holds the name of the file dialog
         xnormal_path = lx.eval("dialog.result ?")
         # set the path to the user value
-        lx.eval("user.value xnormal_path %s" % xnormal_path)
+        lx.eval('user.value xnormal_path "%s"' % xnormal_path)
     # if the value does exist return that
     return lx.eval("user.value xnormal_path ?")
 
