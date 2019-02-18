@@ -41,9 +41,9 @@ def start_bake(
     input_mesh_path,
     input_normal_map,
     output_normal_map,
-    smooth_normals=True,
+    smooth_normals=False,
     osn_to_tsn=True,
-    edge_padding=0,
+    edge_padding=32,
 ):
 
     command = "%s -os2ts %s %s %s %s %s %s" % (
