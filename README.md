@@ -1,6 +1,8 @@
 # Object Space Normals To Tangent Space Normals
 A modo kit by @csprance to convert an OSN to a TSN directly inside of modo using xNormal.
 
+> [xNormal](https://xnormal.net/) must be installed on the users system in order to convert between the two different maps.
+
 ## Installation
 This is a modo kit so install it like normal. I've only tested this on Modo 12, but I don't think it's doing anything
 fancy. Let me know if you run into any issues and if it works on other versions of modo!
