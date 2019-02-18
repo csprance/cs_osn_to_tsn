@@ -20,7 +20,7 @@ class BlessedCommand(lxu.command.BasicCommand):
 
     def basic_Execute(self, msg, flags):
         reload(osn_to_tsn)
-        osn_to_tsn.execute()
+        osn_to_tsn.execute(msg, flags)
 
     def cmd_Query(self, index, vaQuery):
         lx.notimpl()
